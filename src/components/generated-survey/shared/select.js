@@ -1,6 +1,6 @@
 import React from 'react';
-import SelectField from 'material-ui/SelectField';
-import MenuItem from 'material-ui/MenuItem';
+import { SelectField } from 'material-ui';
+import { MenuItem } from 'material-ui';
 
 function Select({
 	id,

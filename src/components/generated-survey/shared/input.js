@@ -1,5 +1,5 @@
 import React from 'react';
-import TextField from 'material-ui/TextField';
+import { TextField } from 'material-ui';
 
 function Input({ id, label, value, onChange, required, disabled, col }) {
 	const inputStyle = {

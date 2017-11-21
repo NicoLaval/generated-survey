@@ -1,6 +1,6 @@
 import React from 'react';
-import Dialog from 'material-ui/Dialog';
-import FlatButton from 'material-ui/FlatButton';
+import { Dialog } from 'material-ui';
+import { FlatButton } from 'material-ui';
 
 function DialogPSG({ text, title, close }) {
 	const actions = [

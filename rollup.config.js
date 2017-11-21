@@ -9,7 +9,7 @@ export default {
 		format: 'cjs',
 	},
 	// All the used libs needs to be here
-	external: ['prop-types', 'react', 'react-proptypes'],
+	external: ['material-ui', 'prop-types', 'react'],
 	plugins: [
 		resolve(),
 		babel({

@@ -7,7 +7,7 @@ import {
 	TableHeaderColumn,
 	TableRow,
 	TableRowColumn,
-} from 'material-ui/Table';
+} from 'material-ui';
 
 export default class TablePSG extends Component {
 	state = {
