@@ -1,0 +1,31 @@
+{
+	"name": "generated-survey",
+	"version": "0.1.0",
+	"description": "GeneratedSurvey is a dynamic React component which aims to build a survey thanks to an external configuration",
+	"main": "dist/index.js",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "rollup -c"
+	},
+	"author": "NicoLaval",
+	"license": "MIT",
+	"dependencies": {
+		"react": "^16.1.1",
+		"react-dom": "^16.1.1",
+		"react-proptypes": "^1.0.0"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-plugin-external-helpers": "^6.22.0",
+		"babel-preset-latest": "^6.24.1",
+		"babel-preset-react": "^6.24.1",
+		"babel-preset-stage-1": "^6.24.1",
+		"rollup": "^0.51.8",
+		"rollup-plugin-babel": "^3.0.2",
+		"rollup-plugin-commonjs": "^8.2.6",
+		"rollup-plugin-node-resolve": "^3.0.0"
+	}
+}
