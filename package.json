@@ -13,9 +13,9 @@
 	"author": "NicoLaval",
 	"license": "MIT",
 	"dependencies": {
+		"prop-types": "^15.6.0",
 		"react": "^16.1.1",
-		"react-dom": "^16.1.1",
-		"react-proptypes": "^1.0.0"
+		"react-dom": "^16.1.1"
 	},
 	"devDependencies": {
 		"babel-core": "^6.26.0",
