@@ -2,7 +2,7 @@
 
 This library allows to generate survey form from json configuration.
 
-It was edited with [Rollup](https://github.com/facebookincubator/create-react-app).
+It was edited with [Rollup](https://github.com/rollup/rollup).
 
 Basic sample is exposed on [generated-survey-sample](https://github.com/NicoLaval/generated-survey-sample).
 
