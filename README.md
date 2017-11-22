@@ -5,7 +5,7 @@ It allows to generate survey form from json configuration.
 
 ## Installation
 
-To install prebuilt generated-survey binaries, use [`npm`](https://docs.npmjs.com/). The preferred method is to install Electron as a development dependency in your app:
+To install prebuilt generated-survey binaries, use [`npm`](https://docs.npmjs.com/). The preferred method is to install the plugin as a development dependency in your app:
 
 ```sh
 npm install generated-survey --save
@@ -13,7 +13,7 @@ npm install generated-survey --save
 
 ## Usage
 
-To use the component, in your React app do :
+To use the component in your React app do :
 
 ```javascript
 import React from 'react';
