@@ -5,11 +5,6 @@
 	"homepage": "./",
 	"author": "NicoLaval",
 	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url":
-			"https://github.com/NicoLaval/generated-survey/example/generated-survey-sample.git"
-	},
 	"devDependencies": {
 		"prettier": "^1.5.2"
 	},

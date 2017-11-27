@@ -38,7 +38,7 @@ export default MyComponent;
 
 ## Example
 
-Basic sample is exposed on [generated-survey-sample](https://github.com/NicoLaval/generated-survey/example/generated-survey-sample).
+Basic sample is exposed on [generated-survey-sample](https://github.com/NicoLaval/generated-survey/tree/master/example/generated-survey-sample).
 
 ## Get sources
 
