@@ -2,7 +2,7 @@
 
 This library allows to generate survey form from json configuration.
 
-It was edited with [Rollup](https://github.com/rollup/rollup).
+It was edited with [Rollup](https://github.com/rollup/rollup) and was bootstrapped with [material-ui](https://github.com/mui-org/material-ui). 
 
 ## Installation
 
@@ -19,17 +19,22 @@ To use the component in your React app do :
 ```javascript
 import React from 'react';
 import { GeneratedSurvey } from 'generated-survey';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
 
 const MyComponent = (props) => {
     const { todo, survey, codeList, back, save } = props;
     return (
-      <GeneratedSurvey
-        todo={todo} //json object
-        survey={survey} //json object
-        codeList={codeList} //json array
-        back={back} //function
-        save={save} //function
-      />
+      <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
+        <GeneratedSurvey
+          todo={todo} //json object
+          survey={survey} //json object
+          codeList={codeList} //json array
+          back={back} //function
+          save={save} //function
+        />
+      </MuiThemeProvider>
     )
 }
 

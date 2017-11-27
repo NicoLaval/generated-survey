@@ -9,7 +9,8 @@
 		"prettier": "^1.5.2"
 	},
 	"dependencies": {
-		"generated-survey": "^0.1.0",
+		"generated-survey": "^0.2.0",
+		"material-ui": "^0.19.4",
 		"react": "^15.0.0",
 		"react-dom": "^15.0.0",
 		"react-scripts": "^1.0.10"
@@ -19,7 +20,6 @@
 		"build": "react-scripts build --minify=false",
 		"test": "react-scripts test --env=jsdom",
 		"eject": "react-scripts eject",
-		"format":
-			"prettier --trailing-comma es5 --single-quote --write 'src/**/*.js'"
+		"format": "prettier --trailing-comma es5 --single-quote --write 'src/**/*.js'"
 	}
 }
