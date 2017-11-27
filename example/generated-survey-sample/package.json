@@ -1,0 +1,29 @@
+{
+	"name": "generated-survey-sample",
+	"version": "0.1.0",
+	"description": "Local test of generated-survey plugin",
+	"homepage": "./",
+	"author": "NicoLaval",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/NicoLaval/generated-survey-sample.git"
+	},
+	"devDependencies": {
+		"prettier": "^1.5.2"
+	},
+	"dependencies": {
+		"generated-survey": "^0.1.0",
+		"react": "^15.0.0",
+		"react-dom": "^15.0.0",
+		"react-loading-overlay": "^0.2.4",
+		"react-scripts": "^1.0.10"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build --minify=false",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject",
+		"format": "prettier --trailing-comma es5 --single-quote --write 'src/**/*.js'"
+	}
+}
