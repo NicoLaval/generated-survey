@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
 import Button from './shared/button';
 import Dialog from './shared/dialog';
 import { buildState } from './utils/build-state';
@@ -48,7 +51,7 @@ class GeneratedSurvey extends Component {
 		const saveDisabled = !incompleteRequired(survey, this.state);
 
 		return (
-			<div>
+			<MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
 				<Button back={this.back} save={this.save} saveDisabled={saveDisabled} />
 				{dialog && (
 					<Dialog
@@ -58,7 +61,7 @@ class GeneratedSurvey extends Component {
 					/>
 				)}
 				<div>{components}</div>
-			</div>
+			</MuiThemeProvider>
 		);
 	}
 }
