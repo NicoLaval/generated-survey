@@ -1,7 +1,8 @@
 {
 	"name": "generated-survey",
-	"version": "0.2.3",
-	"description": "GeneratedSurvey is a dynamic React component which aims to build a survey thanks to an external configuration",
+	"version": "0.2.2",
+	"description":
+		"GeneratedSurvey is a dynamic React component which aims to build a survey thanks to an external configuration",
 	"main": "dist/index.js",
 	"author": "NicoLaval",
 	"license": "MIT",
@@ -9,9 +10,7 @@
 		"type": "git",
 		"url": "https://github.com/NicoLaval/generated-survey.git"
 	},
-	"files": [
-		"dist"
-	],
+	"files": ["dist"],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "rollup -c"

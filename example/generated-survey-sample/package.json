@@ -9,7 +9,7 @@
 		"prettier": "^1.5.2"
 	},
 	"dependencies": {
-		"generated-survey": "^0.2.1",
+		"generated-survey": "^0.2.2",
 		"material-ui": "^0.19.4",
 		"react": "^15.0.0",
 		"react-dom": "^15.0.0",
