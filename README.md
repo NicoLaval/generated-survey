@@ -4,8 +4,6 @@ This library allows to generate survey form from json configuration.
 
 It was edited with [Rollup](https://github.com/rollup/rollup).
 
-Basic sample is exposed on [generated-survey-sample](https://github.com/NicoLaval/generated-survey-sample).
-
 ## Installation
 
 To install prebuilt generated-survey binaries, use [`npm`](https://docs.npmjs.com/). The preferred method is to install the plugin as a development dependency in your app:
@@ -37,6 +35,10 @@ const MyComponent = (props) => {
 
 export default MyComponent;
 ```
+
+## Example
+
+Basic sample is exposed on [generated-survey-sample](https://github.com/NicoLaval/generated-survey/example/generated-survey-sample).
 
 ## Get sources
 
