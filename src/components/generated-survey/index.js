@@ -11,7 +11,7 @@ import { checkFilter } from './utils/check-filter';
 class GeneratedSurvey extends Component {
 	constructor(props) {
 		super();
-		const { todo, survey, back, save } = props;
+		const { todo, survey, onClickBack, onClicksave, onClickCloseModal } = props;
 
 		this.state = buildState(survey);
 
@@ -20,17 +20,18 @@ class GeneratedSurvey extends Component {
 		};
 
 		this.back = () => {
-			back();
+			onClickBack();
 		};
 		this.save = () => {
 			var data = { ...todo, ...this.state };
 			data = buildData(data);
 			data = checkFilter(data, survey);
 			data = clearEmpty(data);
-			save(data);
+			onClicksave(data);
 			this.setState({ dialog: true });
 		};
 		this.closeDialog = () => {
+			onClickCloseModal();
 			this.setState({ dialog: false });
 		};
 	}

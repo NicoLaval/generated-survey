@@ -2,7 +2,7 @@
 
 This library allows to generate survey form from json configuration.
 
-It was edited with [Rollup](https://github.com/rollup/rollup) and was bootstrapped with [material-ui](https://github.com/mui-org/material-ui). 
+It was edited with [Rollup](https://github.com/rollup/rollup) and was bootstrapped with [material-ui](https://github.com/mui-org/material-ui).
 
 ## Installation
 
@@ -24,15 +24,17 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
 
 const MyComponent = (props) => {
-    const { todo, survey, codeList, back, save } = props;
+    const { todo, survey, codeList,
+      backFunction, saveFunction, closeFunction } = props;
     return (
       <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
         <GeneratedSurvey
           todo={todo} //json object
           survey={survey} //json object
           codeList={codeList} //json array
-          back={back} //function
-          save={save} //function
+          onClickBack={backFunction} //function
+          onClicksave={saveFunction} //function
+          onClickCloseModal={closeFunction} //function
         />
       </MuiThemeProvider>
     )
@@ -89,10 +91,14 @@ The codeList prop is a json array :
 TODO : Define the structure
 ```
 
-### back
+### onClickBack
 
-The back prop is a function that would be called when user click on return button.
+The onClickBack prop is a function that would be called when user click on return button.
 
-### save
+### onClicksave
 
-The save prop is a function that would be called when user click on save button.
+The onClicksave prop is a function that would be called when user click on save button.
+
+### onClickCloseModal
+
+The onClickCloseModal prop is a function that would be called when user click to close the box which confirm that data have been saved.

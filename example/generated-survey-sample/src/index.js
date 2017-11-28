@@ -22,8 +22,9 @@ const jsx = (
 					todo={todo}
 					survey={survey}
 					codeList={codeList}
-					back={() => console.log('retour')}
-					save={data => console.log(data)}
+					onClickBack={() => console.log('retour')}
+					onClicksave={data => console.log(data)}
+					onClickCloseModal={() => console.log('Close confirm modal')}
 				/>
 			</div>
 		</div>
