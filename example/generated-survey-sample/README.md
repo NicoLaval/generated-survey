@@ -1,12 +1,20 @@
 # generated-survey-sample
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app)
-and [material-ui](https://github.com/mui-org/material-ui) 
+and [material-ui](https://github.com/mui-org/material-ui)
 
 Plugin [generated-survey](https://github.com/NicoLaval/generated-survey) is used to display survey forms:
 
 `src/data.js` contains a basic sample of data.<br>
 `src/index.js` displays a simple page including the survey. Return button has no effect whereas Save button prints output data in the console.
+
+## Installation
+
+```sh
+git clone https://github.com/NicoLaval/generated-survey.git
+cd .\example\generated-survey-sample
+npm install
+```
 
 ## Available Scripts
 
