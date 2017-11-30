@@ -5,6 +5,12 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
 import { GeneratedSurvey } from 'generated-survey';
 import { todo, survey, codeList } from './data';
+import './app.css';
+
+const { number, street, postalCode, city } = todo.adress;
+const adressLabel = `Adresse du ménage : ${number} ${street} - ${
+	postalCode
+} - ${city}`;
 
 const jsx = (
 	<MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
@@ -16,6 +22,9 @@ const jsx = (
 				<h1 style={{ textAlign: 'center', marginBottom: '30px' }}>
 					{survey.label}
 				</h1>
+			</div>
+			<div className="mui-row">
+				<h4 className="mui-col-md-12 centered">{adressLabel}</h4>
 			</div>
 			<div className="mui-row">
 				<GeneratedSurvey
