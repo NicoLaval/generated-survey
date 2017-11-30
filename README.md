@@ -12,6 +12,8 @@ To install prebuilt generated-survey binaries, use [`npm`](https://docs.npmjs.co
 npm install generated-survey --save
 ```
 
+Note that [yarn](https://github.com/yarnpkg/yarn) is not supported currently.
+
 ## Usage
 
 To use the component in your React app do :
